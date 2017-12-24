@@ -29,3 +29,6 @@ const TransmitterIO = argv.sim ? require('./transmitterIO-simulated') : require(
 TransmitterIO(io.of('/cgm'));
 LoopIO(io.of('/loop'));
 PumpIO(io.of('/pump'));
+
+// a really simple test app on port 3001
+require('./index1.js')();
