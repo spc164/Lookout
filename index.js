@@ -31,4 +31,4 @@ LoopIO(io.of('/loop'));
 PumpIO(io.of('/pump'));
 
 // a really simple test app on port 3001
-// require('./index1')();
+require('./index1')();
